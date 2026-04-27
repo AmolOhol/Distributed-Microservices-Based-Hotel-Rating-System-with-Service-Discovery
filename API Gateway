@@ -1,1 +1,0 @@
-Acts as the single entry point. It centralizes request routing and enforces cross-cutting concerns like rate limiting and logging before requests reach internal services.
