@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AmolOhol/microservice-configuration
+          clone-on-start: true
+
+server:
+  port: 8085
